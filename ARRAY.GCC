@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+
+int i,len,pos,num;
+void main()
+{
+int a[100];
+void insert (int a[],int,int,int);
+clrscr();
+printf("enter the integer to be read");
+scanf("%d",&len);
+printf("enter the elements");
+for(i=0;i<len;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter elements to be inserted");
+scanf("%d",&num);
+printf("enter the position");
+scanf("%d",&pos);
+--pos;
+insert(a,len,pos,num);
+getch();
+}
+void insert (int a[],int len,int pos,int num)
+{
+for(i=len;i>=pos;i--)
+{
+a[i+1] = a[i];
+}
+a[pos] = num;
+if (pos>len)
+{
+printf("insertion outside in array");
+}
+len++;
+printf("new array");
+for(i=0;i<len;i++)
+{
+printf("%d\n",a[i]);
+}
+}

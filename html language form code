@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <center> <h1 style="color: red ; size: 10cm;" >Personal Detail</h1>
+ 
+<h3>Name &nbsp; &nbsp;<input type="chackbox"></h3>
+<h3>Password &nbsp;<input type="chackbox"></h3>
+<h3>Email Id  &nbsp;<input type="chackbox"></h3>
+<h3> Gender &nbsp;<small></small><input type="radio" name="gender" value="male" > Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other </h3>
+    <h3>Contact &nbsp; <input type="chackbox"</h3>
+    <h1 style="color: red; size: 10cm;" >Educational Qualification</h1>
+    <h3>Degree &nbsp; <select >
+      <option value="B tech">B tech</option>
+      <option value="M tech">M tech</option>
+      <option value="B-pharma">B-pharma</option>
+      <option value="MBA">MBA</option></select></h3><br>
+      <h3> Hobbies &nbsp; <input type="radio"name="Hobbies" value="playing cricket" > playing cricket
+        <input type="radio"name="Hobbies"  value="Reading Book"> Reading Book
+        <input type="radio" name="Hobbies"value="Coding"> Coding</h3>
+        <h2 style="color: red;size: 10cm;">Address </h2>
+
+    
+   
